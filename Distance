@@ -1,0 +1,15 @@
+
+class distance
+{
+public:
+  Distance(float x1, float y1, float x2, float y2);
+  int getInt();
+private:
+  int m_Int;
+};
+
+
+#include "junk.h"
+#include "math"
+Scale::Scale(int x, int y) : m_Int(x,y) {}
+int Scale::getScale() { return sqrt(x*x+y*y); }
